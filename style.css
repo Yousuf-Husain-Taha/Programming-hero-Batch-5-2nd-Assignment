@@ -1,0 +1,282 @@
+#nav-bar{
+}
+
+#nav-bar h1{
+    font-family: Poppins;
+    font-weight: 700;
+    color: #3A3A3A;
+    margin: 87px 120px;
+}
+
+#fluencer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fluencer-element{
+}
+
+#fluencer-description{
+    width:  582px;
+    height: 270px;
+}
+
+.fluencer-description-element{
+    margin: 8px 0;
+}
+
+.fluencer-description-element h1{
+    font-family: Poppins;
+    font-weight: 700;
+    color: #3A3A3A;
+    margin: 0;
+    padding: 0;
+}
+
+.fluencer-description-element p{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+#fluencer-button-container{
+    margin: 16px 0 0 0;
+}
+
+#fluencer-button{
+    margin: 500px 0 0 0;
+    text-decoration: none;
+    background-color: #E02C6D;
+    width: 196px;
+    height: 44px;
+    padding: 10px 24px;
+    border-radius: 41px;
+    color: white;
+    font-weight: bold;
+}
+
+#fluencer-image{
+    width:  475px;
+    height: 475px;
+    background-image: url(images/Circle\ design.svg);
+}
+
+#fluencer-image img{
+    width:  440px;
+    height: 414px;
+    margin: 30px 33px 31px 2px;
+}
+
+#logo-container{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hr-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr-container hr{
+    width: 1110px;
+    height: 1px;
+}
+
+#child-logo-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-arrow-right{
+    font-size: 16px;
+    margin-left: 12px;
+    color: #FFFFFF;
+}
+
+#popular-collection{
+    width:  100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#chid-popular-collection{
+    height: 100%;
+}
+
+#head-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head-container-child{
+    width: 262px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head-container-child h1{
+    font-family: 'Dongle', sans-serif;
+}
+
+#item-container{
+    background-color: #D4D4D4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin: 0;
+}
+
+.items{
+    width:  329px;
+    height: 476px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.items img{
+    width:  300px;
+    height: 256px;
+    margin: 15px;
+}
+
+.item-name{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 0 0 15px;
+    padding: 0;
+    color: #18191F;
+}
+
+.item-value{
+    margin: 0 0 0 15px;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+
+.item_ratings{
+    display: flex;
+    margin: 0 0 0 15px;
+    align-items: center;
+}
+
+.item_ratings i{
+    margin: 0;
+    padding: 0;
+    margin: 0 0 0 2px;
+    font-size: 14px;
+    color: #FB8200;
+}
+
+.item_ratings p{
+    margin: 0;
+    padding: 0;
+    margin: 0 0 0 16px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #5E6366;
+}
+.item_description{
+    width: 196px;
+    height: 61px;
+    margin: 15px 0 0 15px;
+}
+
+.item_description p{
+    margin: 4px 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #787885;
+}
+
+#foot-container{
+    padding: 50px 0 0px 0;
+    float: right;
+}
+
+#foot-container-button{
+    color: #E02C6D;
+    font-family: poppins;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#arrow{
+    color: #E02C6D;
+}
+
+#footer{
+    background-color: #071054;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#child-footer{
+    margin: 50px 0;
+}
+
+.footer-elements{
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-header h1{
+    font-family: Poppins;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.footer-paragraph p{
+    font-family: 'Manrope', sans-serif;
+    color: #FFFFFF;
+}
+
+#footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    margin: 0 16px;
+}
+
+.icons i{
+    font-size: 38px;
+    color: #FFFFFF;
+}
+
+/* Media Queries */
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    .fluencer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #logo-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin: 0;
+    }
+    #item-container{
+        background-color: #D4D4D4;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        margin: 0;
+    }
+}
